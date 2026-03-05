@@ -1,0 +1,19 @@
+########################
+# MD: Rewritten
+# French News Events
+########################
+
+news_event = {
+	id = France_news.102
+	title = France_news.102.t
+	desc = France_news.102.d
+	picture = FRA_news_launch_the_coup
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = France_news.102.o1
+		log = "[GetDateText]: [This.GetName]: France_news.102.o executed"
+	}
+}

@@ -1,0 +1,33 @@
+﻿l_english:
+########################
+# MD: Rewritten
+# French Focus Tree
+########################
+
+# Rupture
+ FRA_breakup: "Rupture"
+ FRA_breakup_desc: "'Rupture' meaning breakup. The Republic is collapsing. Lying motto, corrupt politicians and unpayable colossal debt. Under the cover of attacks and terror, act now: break or France dies."
+
+# Open Letter
+ FRA_open_letter: "Open Letter"
+ FRA_open_letter_desc: "An open letter signed by several influential generals has been made public. Addressed directly to the government, it demands an immediate return to patriotism, a complete halt to immigration, the implementation of an energetic re-migration policy, and above all the restoration of the fundamental values that made the Nation great."
+
+# Counter Opposition
+ FRA_counter_opposition: "Counter Opposition"
+ FRA_counter_opposition_desc: "With the rise of far-right parties, the left radicalizes through Antifa movements in major cities. Our allies within internal intelligence services will neutralize this threat during the power takeover and enforce lasting order."
+
+# The Loyalists
+ FRA_loyalists: "The Loyalists"
+ FRA_loyalists_desc: "Vichy nostalgics and the Republic’s forgotten finally unite. Former generals, disgraced officers, fringe politicians, militiamen and scattered factions join forces under the Loyalist banner, ready to make the voices the Fifth Republic tried to erase be heard once more. The hour of revenge draws near."
+
+# Rally the Rural Heartland
+ FRA_deep_france: "Rally the Rural Heartland"
+ FRA_deep_france_desc: "The forgotten people of Deep France answer the Loyalists' call. By rallying the neglected countryside, we turn rural anger into massive army support and authorize the quiet arming of loyalist factions and hunting & shooting clubs. The real France is rising at last."
+
+# Launch the Operation
+ FRA_launch_the_coup: "Launch the Operation"
+ FRA_launch_the_coup_desc: "The army seizes Parliament and all public institutions in Paris. The Élysée Guard, partly complicit, takes the President hostage. Civil war finally erupts!"
+
+ France_news.102.t: "Launch the Operation"
+ France_news.102.d: "The army seizes Parliament and all public institutions in Paris. The Élysée Guard, partly complicit, takes the President hostage. Civil war finally erupts!"
+ France_news.102.o1: "Oh well."

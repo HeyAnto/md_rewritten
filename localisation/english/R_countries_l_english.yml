@@ -1,0 +1,21 @@
+﻿l_english:
+########################
+# MD: Rewritten
+########################
+
+# France
+ FRA_AUTH_S_neutrality: "Commune of France"
+ FRA_AUTH_S_neutrality_DEF: "The Commune of France"
+ FRA_AUTH_S_neutrality_ADJ: "French"
+
+ FRA_REB_S_neutrality: "Anarchist France"
+ FRA_REB_S_neutrality_DEF: "The Anarchist France"
+ FRA_REB_S_neutrality_ADJ: "Français"
+
+ FRA_REB_S_nationalist: "Government of National Defense"
+ FRA_REB_S_nationalist_DEF: "The Government of National Defense"
+ FRA_REB_S_nationalist_ADJ: "Français"
+
+ FRA_AUTH_SS: "French State"
+ FRA_AUTH_SS_DEF: "The French State"
+ FRA_AUTH_SS_ADJ: "French"

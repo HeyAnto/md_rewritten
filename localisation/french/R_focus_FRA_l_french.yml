@@ -1,0 +1,33 @@
+﻿l_french:
+########################
+# MD: Rewritten
+# French Focus Tree
+########################
+
+# Rupture
+ FRA_breakup: "Rupture"
+ FRA_breakup_desc: "La République s'effondre. Devise mensongère, politiciens corrompus et dette colossale impossible à rembourser. Sous couvert d'attentats et de terreur, agissez maintenant : rompez ou la France meurt."
+
+# Open Letter
+ FRA_open_letter: "Lettre Ouverte"
+ FRA_open_letter_desc: "Une lettre ouverte signée par plusieurs généraux influents a été rendue publique. Adressée directement au gouvernement, elle exige le retour immédiat au patriotisme, l'arrêt total de l'immigration, la mise en œuvre d'une politique de re-migration énergique, et surtout le rétablissement des valeurs fondamentales qui ont fait la grandeur de la Nation."
+
+# Counter Opposition
+ FRA_counter_opposition: "Contrer l'Opposition"
+ FRA_counter_opposition_desc: "Face à la montée des extrêmes droites, la gauche se radicalise via les mouvements Antifa dans les grandes villes. Nos alliés au sein des services de renseignement intérieurs contreront cette menace lors de la prise de pouvoir et imposeront l'ordre durablement."
+
+# The Loyalists
+ FRA_loyalists: "Les Loyalistes"
+ FRA_loyalists_desc: "Les nostalgiques de Vichy et les oubliés de la République se regroupent enfin. Anciens généraux, officiers déchus, politiciens marginaux, miliciens et groupuscules épars unissent leurs forces sous la bannière des Loyalistes, prêts à faire entendre la voix de ceux que la Cinquième République a voulu effacer. L'heure de la revanche approche."
+
+# Rally the Rural Heartland
+ FRA_deep_france: "Rallier la Ruralité"
+ FRA_deep_france_desc: "Les oubliés de la France profonde répondent à l'appel des Loyalistes. En ralliant les campagnes délaissées par la République, nous transformons la colère rurale en soutien massif à l'armée et autorisons l'armement discret des groupuscules fidèles et des clubs de chasse et de tir. La France des terroirs se lève enfin."
+
+# Launch the Operation
+ FRA_launch_the_coup: "Lancer l'Opération"
+ FRA_launch_the_coup_desc: "L'armée s'empare du Parlement et de toutes les institutions publiques de Paris. La Garde de l'Élysée, complice en partie, prend le Président en otage. La guerre civile éclate enfin !"
+
+ France_news.102.t: "France demands its 'natural borders'"
+ France_news.102.d: "For France's economic destiny and its military protection, the Rhine river is its indispensable eastern border. We will have to reclaim it, by force if necessary.\n\n[FRA.GetLeader] has stirred up quite a bit of controversy by essentially proclaiming an upcoming war for no reason but French military aggression."
+ France_news.101.o1: "Glorious will France be!"

@@ -1,0 +1,11 @@
+spriteTypes = {
+	########################
+	# MD: Rewritten
+	########################
+
+	# Launch the Operation
+	spriteType = {
+		name = "FRA_news_launch_the_coup"
+		texturefile = "gfx/event_pictures/europe/france - FRA/rewritten/FRA_news_launch_the_coup.dds"
+	}
+}

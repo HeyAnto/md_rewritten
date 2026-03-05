@@ -1,0 +1,41 @@
+spriteTypes = {
+	########################
+	# MD: Rewritten
+	########################
+
+	# Rupture
+	spriteType = {
+		name = "FRA_breakup"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_breakup.dds"
+	}
+
+	# Open Letter
+	spriteType = {
+		name = "FRA_open_letter"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_open_letter.dds"
+	}
+
+	# Counter Opposition
+	spriteType = {
+		name = "FRA_counter_opposition"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_counter_opposition.dds"
+	}
+
+	# The Loyalists
+	spriteType = {
+		name = "FRA_loyalists"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_loyalists.dds"
+	}
+
+	# Rally the Rural Heartland
+	spriteType = {
+		name = "FRA_deep_france"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_deep_france.dds"
+	}
+
+	# Launch the Operation
+	spriteType = {
+		name = "FRA_launch_the_coup"
+		texturefile = "gfx/interface/goals/france/rewritten/FRA_launch_the_coup.dds"
+	}
+}
