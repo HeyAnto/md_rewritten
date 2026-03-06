@@ -28,6 +28,7 @@
  FRA_launch_the_coup: "Launch the Operation"
  FRA_launch_the_coup_desc: "The army seizes Parliament and all public institutions in Paris. The Élysée Guard, partly complicit, takes the President hostage. Civil war finally erupts!"
 
- France_news.102.t: "Launch the Operation"
- France_news.102.d: "The army seizes Parliament and all public institutions in Paris. The Élysée Guard, partly complicit, takes the President hostage. Civil war finally erupts!"
- France_news.102.o1: "Oh well."
+ France_news.102.t: "Military Coup in France"  
+ France_news.102.d: "Amid growing political instability in France, retired General Christian Piquemal, former commander of the Foreign Legion and a nationalist figure known for his anti-immigration stance and warnings of an impending civil war, has orchestrated a coup d'État with support from military nationalists and state accomplices. Loyal forces have seized the National Assembly, the Élysée Palace, and key institutions in Paris, declaring a 'National Defense Government' to restore order and French sovereignty.\n\nHowever, part of the army has rallied to anarchist and antifascist factions in the south of the country. These factions are led by a council of representatives including radical activists, mobilizing youth, workers, and anti-police militants from strongholds such as Lyon and Bordeaux.\n\nFor now, Piquemal's forces hold the capital as well as several major cities in the north."  
+ France_news.102.o1: "Victory to the Loyalists!"  
+ France_news.102.o2: "Interesting"

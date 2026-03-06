@@ -14,6 +14,17 @@ news_event = {
 
 	option = {
 		name = France_news.102.o1
-		log = "[GetDateText]: [This.GetName]: France_news.102.o executed"
+		trigger = {
+			tag = FRA
+		}
+		log = "[GetDateText]: [This.GetName]: France_news.102.o1 executed"
+	}
+
+	option = {
+		name = France_news.102.o2
+		trigger = {
+			NOT = { tag = FRA }
+		}
+		log = "[GetDateText]: [This.GetName]: France_news.102.o2 executed"
 	}
 }

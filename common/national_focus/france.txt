@@ -18,7 +18,7 @@ focus_tree = {
 		id = FRA_state_of_french_politics
 		icon = state_of_french_politics
 
-		x = 0
+		x = -8
 		y = 0
 
 		cost = 5
@@ -8581,7 +8581,6 @@ focus_tree = {
 
 	########################
 	# MD: Rewritten
-	# Author(s): Antonin Sioly
 	########################
 
 	# Rupture
@@ -8589,7 +8588,7 @@ focus_tree = {
 		id = FRA_breakup
 		icon = FRA_breakup
 
-		x = -16
+		x = 15
 		y = 2
 		relative_position_id = FRA_state_of_french_politics
 
@@ -8726,6 +8725,82 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FRA_launch_the_coup"
 			
+			# French Government
+			hidden_effect = {
+				clear_array = ruling_party
+				clear_array = gov_coalition_array
+				add_to_array = { ruling_party = 22 } # Nat_Autocracy (army)
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.70
+				}
+
+				set_variable = { party_pop_array^22 = 0.30 }  # Nat_Autocracy (army)
+				set_variable = { party_pop_array^21 = 0.50 }  # Nat_Fascism
+				
+				set_politics = {
+					ruling_party = nationalist
+					elections_allowed = no
+				}
+
+				update_party_name = yes
+				set_coalition_drift = yes
+				update_government_coalition_strength = yes
+
+				set_ruling_leader = yes
+				set_variable = { current_term = 0 }
+				set_variable = { Nat_Autocracy_leader = 0 }
+
+				create_country_leader = {
+					name = "Christian Piquemal"
+					picture = "Christian_Piquemal.dds"
+					ideology = Nat_Autocracy
+					traits = {
+						nationalist_Nat_Autocracy
+					}
+				}
+
+				set_cosmetic_tag = FRA_REB_S_nationalist
+				NATO_leave = yes
+
+				start_civil_war = {
+					ideology = neutrality
+					size = 0.5
+				}
+			}
+			
+			# Anarchist Rebels
+			hidden_effect = {
+				random_enemy_country = {
+					limit = { original_tag = ROOT }			
+					
+					clear_array = ruling_party
+					clear_array = gov_coalition_array
+					add_to_array = { ruling_party = 19 } # Neutral_Communism (anarchist)
+					set_variable = { party_pop_array^19 = 0.30 }  # Neutral_Communism (anarchist)
+					
+					update_party_name = yes
+					set_coalition_drift = yes
+					update_government_coalition_strength = yes
+
+					set_ruling_leader = yes
+					set_leader = yes
+					set_variable = { current_term = 0 }
+					
+					create_country_leader = {
+						name = "Insurrection"
+						picture = "Insurrection.dds"
+						ideology = Neutral_Communism
+						traits = {
+							neutrality_Neutral_Communism
+						}
+					}
+
+					set_cosmetic_tag = FRA_REB_S_neutrality
+				}
+			}
+
 			hidden_effect = {
 				add_equipment_to_stockpile = {
 					type = infantry_weapons1
@@ -8766,86 +8841,8 @@ focus_tree = {
 						count = 2
 					}
 				}
-				
+
 				news_event = { id = France_news.102 hours = 6 }
-			}
-			
-			# Frenceh Government
-			hidden_effect = {
-				clear_array = ruling_party
-				clear_array = gov_coalition_array
-				add_to_array = { ruling_party = 22 }
-				
-				set_variable = { Nat_Autocracy_leader = 0 }
-			
-				update_party_name = yes
-				set_coalition_drift = yes
-				update_government_coalition_strength = yes
-				
-				set_ruling_leader = yes
-				set_variable = { current_term = 0 }
-				
-				set_politics = {
-					ruling_party = nationalist
-					elections_allowed = no
-				}
-			
-				add_popularity = {
-					ideology = nationalist
-					popularity = 0.70
-				}
-
-				set_variable = { party_pop_array^22 = 0.30 }  # Nat_Autocracy (army)
-				set_variable = { party_pop_array^21 = 0.50 }  # Nat_Fascism
-
-				set_cosmetic_tag = FRA_REB_S_nationalist
-
-				create_country_leader = {
-					name = "Christian Piquemal"
-					picture = "Christian_Piquemal.dds"
-					ideology = Nat_Autocracy
-					traits = {
-						nationalist_Nat_Autocracy
-					}
-				}
-
-				NATO_leave = yes
-
-				start_civil_war = {
-					ideology = neutrality
-					size = 0.5
-				}
-			}
-			
-			# Anarchist Rebels
-			hidden_effect = {
-				random_enemy_country = {
-					limit = { original_tag = ROOT }			
-					
-					clear_array = ruling_party
-					clear_array = gov_coalition_array
-					add_to_array = { ruling_party = 19 } # Neutral_Communism (anarchist)
-					
-					set_variable = { party_pop_array^19 = 0.30 }  # Neutral_Communism (anarchist)
-					
-					update_party_name = yes
-					set_coalition_drift = yes
-					update_government_coalition_strength = yes
-					set_ruling_leader = yes
-					set_leader = yes
-					set_variable = { current_term = 0 }
-					
-					set_cosmetic_tag = FRA_REB_S_neutrality
-					
-					create_country_leader = {
-						name = "Raphaël Arnault"
-						picture = "Raphael_Arnault.dds"
-						ideology = Neutral_Communism
-						traits = {
-							neutrality_Neutral_Communism
-						}
-					}
-				}
 			}
 		}
 

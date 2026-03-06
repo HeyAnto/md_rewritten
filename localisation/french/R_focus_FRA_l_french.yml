@@ -28,6 +28,7 @@
  FRA_launch_the_coup: "Lancer l'Opération"
  FRA_launch_the_coup_desc: "L'armée s'empare du Parlement et de toutes les institutions publiques de Paris. La Garde de l'Élysée, complice en partie, prend le Président en otage. La guerre civile éclate enfin !"
 
- France_news.102.t: "France demands its 'natural borders'"
- France_news.102.d: "For France's economic destiny and its military protection, the Rhine river is its indispensable eastern border. We will have to reclaim it, by force if necessary.\n\n[FRA.GetLeader] has stirred up quite a bit of controversy by essentially proclaiming an upcoming war for no reason but French military aggression."
- France_news.101.o1: "Glorious will France be!"
+ France_news.102.t: "Coup d'État militaire en France"
+ France_news.102.d: "Au cœur d'une instabilité politique croissante en France, le général à la retraite Christian Piquemal, ex-commandant de la Légion étrangère et figure nationaliste anti-immigration avertissant d'une guerre civile imminente, a orchestré un coup d'État avec le soutien de nationalistes militaires et de complices étatiques. Les forces loyales ont saisi l'Assemblée nationale, le Palais de l'Élysée et des institutions clés à Paris, déclarant un 'Gouvernement de Défense nationale' pour restaurer l'ordre et la souveraineté française.\n\nCependant, une partie de l'armée s'est ralliée à des factions anarchistes et antifascistes dans le sud du pays. Ces factions sont dirigées par un conseil de représentants incluant des activistes radicaux, mobilisant la jeunesse, les travailleurs et les militants anti-police depuis des bastions comme Lyon et Bordeaux.\n\nPour l'instant, les forces de Piquemal tiennent la capitale ainsi que plusieurs grandes villes du nord."
+ France_news.102.o1: "Victoire aux Loyalistes !"
+ France_news.102.o2: "Intéressant"
