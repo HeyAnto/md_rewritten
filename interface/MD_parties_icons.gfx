@@ -1810,18 +1810,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	########################
-	# New Story - France
-	########################
-	
-	spriteType = {
-		name = "GFX_FRA_nationalist_fascism"
-		texturefile = "gfx/texticons/parties_icons/france/FRA_Nat_fascism.dds"
-		legacy_lazy_load = no
-	}
-
-	########################
-
 	spriteType = {
 		name = "GFX_GEO_anarchist_communism"
 		texturefile = "gfx/texticons/parties_icons/georgia/GEO_anarchist_communism.dds"

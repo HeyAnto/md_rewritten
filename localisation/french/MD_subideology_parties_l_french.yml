@@ -628,14 +628,6 @@
  FRA.Monarchist2_icon: "£FRA_Monarchist2"
  FRA.Monarchist2_desc: "Monarchiste - L'autoproclamée « Maison impériale de France » est la dynastie de l'empereur Napoléon Ier Bonaparte."
 
- ########################
- # New Story - France
- ########################
-
- FRA.Nat_Fascism: "£FRA_nationalist_fascism Révolution Nationale"
- FRA.Nat_Fascism_icon: "£FRA_nationalist_fascism"
- FRA.Nat_Fascism_desc: "Fasciste - Mouvement nationaliste autoritaire se réclamant de l'héritage de Philippe Pétain, l'UNEF prône le rétablissement d'un «État Français» fondé sur l'ordre, l'autorité, le corporatisme et les principes de la Révolution nationale. Hostile au parlementarisme et au libéralisme, le parti ambitionne une refonte institutionnelle centralisée et traditionaliste de la France au tournant des années 2000."
-
  ### Germany ###
  #Todo - add Die Republikaner 2000 (nationalist)
  # add Party of Democratic Socialism

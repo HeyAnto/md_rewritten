@@ -10842,7 +10842,6 @@ defined_text = {
 	text = { trigger = { original_tag = DEN date > 2016.12.12 } localization_key = DEN.Nat_Fascism_2017 }
 	text = { trigger = { original_tag = FIN } localization_key = FIN.Nat_Fascism }
 	text = { trigger = { original_tag = GER } localization_key = GER.Nat_Fascism }
-	text = { trigger = { original_tag = FRA } localization_key = FRA.Nat_Fascism }
 	text = { trigger = { original_tag = ICE } localization_key = ICE.Nat_Fascism }
 	text = { trigger = { original_tag = NOR NOT = { has_country_flag = alliansen } } localization_key = NOR.Nat_Fascism }
 	text = { trigger = { original_tag = NOR has_country_flag = alliansen } localization_key = NOR.Nat_Fascism2 }
@@ -11826,7 +11825,6 @@ defined_text = {
 	text = { trigger = { original_tag = BRM } localization_key = BRM.Nat_Fascism_desc }
 		text = { trigger = { original_tag = BLR } localization_key = BLR.Nat_Fascism_desc }
 	text = { trigger = { original_tag = GER } localization_key = GER.Nat_Fascism_desc }
-	text = { trigger = { original_tag = FRA } localization_key = FRA.Nat_Fascism_desc }
 	text = { trigger = { original_tag = FIN } localization_key = FIN.Nat_Fascism_desc }
 	text = { trigger = { original_tag = GUA date < 2013.1.26 } localization_key = GUA.Nat_Fascism_desc }
 	text = { trigger = { original_tag = GUA date > 2013.1.26 } localization_key = GUA.Nat_Fascism_2013_desc }
@@ -12638,7 +12636,6 @@ defined_text = {
 	text = { trigger = { original_tag = TUR } localization_key = TUR.Nat_Fascism_icon }
 	text = { trigger = { original_tag = FIN } localization_key = FIN.Nat_Fascism_icon }
 	text = { trigger = { original_tag = GER } localization_key = GER.Nat_Fascism_icon }
-	text = { trigger = { original_tag = FRA } localization_key = FRA.Nat_Fascism_icon }
 	text = { trigger = { original_tag = SPR } localization_key = SPR.Nat_Fascism_icon }
 	text = { trigger = { original_tag = ICE } localization_key = ICE.Nat_Fascism_icon }
 	text = { trigger = { original_tag = NOR NOT = { has_country_flag = alliansen } } localization_key = NOR.Nat_Fascism_icon }

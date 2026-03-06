@@ -626,18 +626,6 @@
  FRA.Monarchist2_icon: "£FRA_Monarchist2"
  FRA.Monarchist2_desc: "Monarchist - The self-styled 'Imperial House of France' is the dynasty of the great Emperor Napoléon Bonaparte."
 
- ########################
- # New Story - France
- ########################
-
- FRA.Nat_Fascism: "£FRA_nationalist_fascism Révolution Nationale"
- FRA.Nat_Fascism_icon: "£FRA_nationalist_fascism"
- FRA.Nat_Fascism_desc: "Fascism - Authoritarian nationalist movement claiming the legacy of Philippe Pétain, advocating the restoration of a «French State» founded on order, authority, corporatism, and the principles of the National Revolution. Hostile to parliamentarianism and liberalism, the party seeks a centralized and traditionalist institutional overhaul of France at the turn of the 2000s."
-
-#  GER.Nat_Fascism: "£GER_nationalist_fascism NPD"
-#  GER.Nat_Fascism_icon: "£GER_nationalist_fascism"
-#  GER.Nat_Fascism_desc: "Fascism - Nationaldemokratische Partei Deutschlands (National Democratic Party). The NDP is a far-right ultranationalist party that has been labeled as neo-Nazi. While the party has been infiltrated heavily by state intelligence, attempts at banning it have failed. They are anti-semitic and promote hatred against immigrants."
-
  ### Germany ###
  #Todo - add Die Republikaner 2000 (nationalist)
  # add Party of Democratic Socialism
